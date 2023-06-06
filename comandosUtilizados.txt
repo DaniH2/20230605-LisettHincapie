@@ -1,0 +1,51 @@
+  511  mkdir 20230605-LisettHincapie
+  512  cd 20230605-LisettHincapie/
+  513  git init
+  514  touch comandos.txt main.js index.html
+  515  ls
+  516  git commit -m "commit 01 de LisettHincapie"
+  517  git add .
+  518  git commit -m "commit 01 de LisettHincapie"
+  519  git remote add origin https://github.com/DaniH2/20230605-LisettHincapie.git
+  520  git config user.name "Daniela Hincapie"
+  521  git config user.email "lishincapie@gmail.com"
+  522  git push origin main
+  523  git checkout -b "feature01"
+  524  mkdir Terminal Hardware
+  525  ls
+  526  cd Hardware/
+  527  touch resumen.txt
+  528  cd ..
+  529  cd Terminal/
+  530  touch resumen.txt
+  531  git add .
+  532  git commit -m "commit 02 de LisettHincapie"
+  533  git push origin feature01
+  534  cd ..
+  535  git status
+  536  git add ..
+  537  git add Hardware
+  538  git commit -m "commit 02 de LisettHincapie"
+  539  git push origin feature01
+  540  git checkout "feature02"
+  541  git checkout -b "feature02"
+  542  ls
+  543  cd Ter
+  544  cd Terminal/
+  545  nano resumen.txt
+  546  cd ..
+  547  cd Hardware/
+  548  nano resumen.txt
+  549  cd ..
+  550  git status
+  551  git add .
+  552  git add ..
+  553  git status
+  554  git commit -m "commit 03 de LisettHincapie"
+  555  git push origin feature02
+  556  git checkout main
+  557  ls
+  558  mv comandos.txt comandosUtilizados.txt
+  559  git history
+  560  history
+
